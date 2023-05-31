@@ -26,7 +26,7 @@ const Dropdown = (props) => {
       {/* <!-- Dropdown menu --> */}
       <div
         id={props.data.title}
-        className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+        className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-72"
       >
         <ul
           className="py-2 text-sm text-gray-700 dark:text-gray-400"

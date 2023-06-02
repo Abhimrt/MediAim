@@ -10,7 +10,7 @@ const HeroSection = () => {
         <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">Are you ready to contribute significantly in the area of Education, Health and Environment (EHE)</p>
       </div>
       {/* right image */}
-      <Image src={"/images/hero .png"} className='w-1/2 hidden md:block' width={500} height={250} />
+      <Image src={"/images/hero.png"} className='w-1/2 hidden md:block' width={500} height={250} />
     </div>
   )
 }

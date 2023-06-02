@@ -8,7 +8,7 @@ const navData =[
         link:"/",
         dropdown:[{
             title: "About MediAim",
-            link:"/"
+            link:"/about/mediaim"
           },
           {
             title: "Founder's Message",
@@ -24,7 +24,7 @@ const navData =[
           },
           {
             title: "Core Values",
-            link:"/"
+            link:"/about/corevalues"
           },
         ]
     },
@@ -34,11 +34,11 @@ const navData =[
         dropdown:[
             {
                 title:"NEET Pre-Foundation",
-                link:"/"
+                link:"/courses/prefoundation"
             },
             {
                 title:"NEET Foundation",
-                link:"/"
+                link:"/courses/foundation"
             },
             {
                 title:"NEET Plan A-2 Years Regress Course",

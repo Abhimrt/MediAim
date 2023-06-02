@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.center{
+    @apply flex justify-center items-center
+}
+
+.h1{
+    @apply font-bold text-3xl ml-2;
+}

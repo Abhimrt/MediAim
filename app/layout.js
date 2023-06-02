@@ -1,3 +1,4 @@
+import Navbar from './Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
           <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
       </head>
       <body className={inter.className}>
+        <Navbar/>
           {children}
           <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
       </body>

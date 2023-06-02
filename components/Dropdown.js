@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Dropdown = (props) => {
@@ -34,9 +35,9 @@ const Dropdown = (props) => {
         >
           {props.data.dropdown.map((e, i) => (
             <li key={i}>
-              <a href={e.link} className="block px-4 py-2 hover:bg-gray-200  ">
+              <Link href={e.link} className="block px-4 py-2 hover:bg-gray-200  ">
                 {e.title}
-              </a>
+              </Link>
               <hr  className="w-5/6 m-auto" />
             </li>
           ))}

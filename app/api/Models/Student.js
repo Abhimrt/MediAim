@@ -6,49 +6,49 @@ const studentSchema = new Schema({
         type: String,
         required: true
     },
-    // fatherName: {
-    //     type: String,
-    //     required: true
-    // },
+    fatherName: {
+        type: String,
+        required: true
+    },
     email: {
         type: String,
         unique: true,
         required: true
     },
-    // mobileNo:{
-    //     type:Number,
-    //     required:true
-    // }, 
-    // whatsappNo:{
-    //     type:Number,
-    //     required:true
-    // }, 
-    // studingIn:{
-    //     type:String,
-    //     required:true
-    // },
-    // school:{
-    //     type:String,
-    //     required:true
-    // },
-    // Address:{
-    //     state:{
-    //         type:String,
-    //         required:true
-    //     },
-    //     city:{
-    //         type:String,
-    //         required:true
-    //     },
-    //     houseNo:{
-    //         type:String,
-    //         required:true
-    //     },
-    // },
-    // DOB: {
-    //     type: Date,
-    //     required: true
-    // },
+    mobileNo:{
+        type:Number,
+        required:true
+    }, 
+    whatsappNo:{
+        type:Number,
+        required:true
+    }, 
+    studingIn:{
+        type:String,
+        required:true
+    },
+    school:{
+        type:String,
+        required:true
+    },
+    Address:{
+        state:{
+            type:String,
+            required:true
+        },
+        city:{
+            type:String,
+            required:true
+        },
+        houseNo:{
+            type:String,
+            required:true
+        },
+    },
+    DOB: {
+        type: Date,
+        required: true
+    },
     timestamp: {
         type: Date,
         default: Date.now

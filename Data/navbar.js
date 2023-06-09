@@ -42,19 +42,19 @@ const navData =[
             },
             {
                 title:"NEET Plan A-2 Years Regress Course",
-                link:"/"
+                link:"/courses/twoYear"
             },
             {
                 title:"NEET Plan A-1 Years Repeaters Course",
-                link:"/"
+                link:"/courses/oneYear"
             },
             {
                 title:"NEET - Backup Plan B",
-                link:"/"
+                link:"/courses/planB"
             },
             {
                 title:"NEET - Backup Plan C",
-                link:"/"
+                link:"/courses/planC"
             },
         ]
     },

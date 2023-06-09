@@ -153,4 +153,127 @@ const foundation = [
     ],
 ]
 
-export { core, preFoundation , foundation}
+const twoYear = [
+    [
+        "",
+        [
+            {
+                content:"NEET exam consists of three sections namely, Physics, Chemistry, and Biology."
+            },
+            {
+                content:"This course of NEET have been all set in consideration of the needs of students preparing for NEET. The theory has a balanced support from illustrious examples to support students to excel in this section."
+            },
+            {
+                content:"The allocation of classes as well as the curriculum has been mapped after thorough deliberation incorporating CBSE/ State Board guidelines and the latest trends and patterns of competitive exams like NEET / AIIMS / JEE (Main & Advanced). Our faculty will coordinate with the school faculty to ensure the course planning in line with the school/CBSE almanac."
+            },
+        ],
+    ],[
+        "Features",
+        [
+            {content:"240+ Lecture Hours"},
+            {content:"80+ hours of Doubt removal Sessions"},
+            {content:"80+ Chapter Test (DPP)"},
+            {content:"Sample papers"},
+            {content:"Recorded Sessions of all lectures"},
+            {content:"Weekly Unit Test (Multiple Choice Pattern) for Competitive Examination"},
+            {content:"Monthly Unit Test (Theoretical pattern) for Board exam Preparation"},
+            {content:"Unlimited hours of Self Practice Test"},
+            {content:"Full Length Course Material"},
+            {content:"Old NEET Papers Practice Test"},
+        ]
+    ]
+]
+
+const oneYear = [
+    [
+        "",
+        [
+            {
+                content:"NEET exam consists of three sections namely, Physics, Chemistry, and Biology."
+            },
+            {
+                content:"This course of NEET have been all set in consideration of the needs of students preparing for NEET. The theory has a balanced support from illustrious examples to support students to excel in this section."
+            },
+            {
+                content:"The allocation of classes as well as the curriculum has been mapped after thorough deliberation incorporating CBSE/ State Board guidelines and the latest trends and patterns of competitive exams like NEET / AIIMS / JEE (Main & Advanced). Our faculty will coordinate with the school faculty to ensure the course planning in line with the school/CBSE almanac."
+            },
+        ],
+    ],[
+        "Features",
+        [
+            {content:"240+ Lecture Hours"},
+            {content:"80+ hours of Doubt removal Sessions"},
+            {content:"80+ Chapter Test (DPP)"},
+            {content:"Sample papers"},
+            {content:"Recorded Sessions of all lectures"},
+            {content:"Weekly Unit Test (Multiple Choice Pattern) for Competitive Examination"},
+            {content:"Monthly Unit Test (Theoretical pattern) for Board exam Preparation"},
+            {content:"Unlimited hours of Self Practice Test"},
+            {content:"Full Length Course Material"},
+            {content:"Old NEET Papers Practice Test"},
+        ]
+    ]
+]
+
+const planB = [
+    [
+        "",
+        [
+            {
+                content:"NEET exam consists of three sections namely, Physics, Chemistry, and Biology."
+            },
+            {
+                content:"This course of NEET have been all set in consideration of the needs of students preparing for NEET. The theory has a balanced support from illustrious examples to support students to excel in this section."
+            },
+            {
+                content:"The allocation of classes as well as the curriculum has been mapped after thorough deliberation incorporating CBSE/ State Board guidelines and the latest trends and patterns of competitive exams like NEET / AIIMS / JEE (Main & Advanced). Our faculty will coordinate with the school faculty to ensure the course planning in line with the school/CBSE almanac."
+            },
+        ],
+    ],[
+        "Features",
+        [
+            {content:"240+ Lecture Hours"},
+            {content:"80+ hours of Doubt removal Sessions"},
+            {content:"80+ Chapter Test (DPP)"},
+            {content:"Sample papers"},
+            {content:"Recorded Sessions of all lectures"},
+            {content:"Weekly Unit Test (Multiple Choice Pattern) for Competitive Examination"},
+            {content:"Monthly Unit Test (Theoretical pattern) for Board exam Preparation"},
+            {content:"Unlimited hours of Self Practice Test"},
+            {content:"Full Length Course Material"},
+            {content:"Old NEET Papers Practice Test"},
+        ]
+    ]
+]
+
+const planC = [
+    [
+        "",
+        [
+            {
+                content:"NEET exam consists of three sections namely, Physics, Chemistry, and Biology."
+            },
+            {
+                content:"This course of NEET have been all set in consideration of the needs of students preparing for NEET. The theory has a balanced support from illustrious examples to support students to excel in this section."
+            },
+            {
+                content:"The allocation of classes as well as the curriculum has been mapped after thorough deliberation incorporating CBSE/ State Board guidelines and the latest trends and patterns of competitive exams like NEET / AIIMS / JEE (Main & Advanced). Our faculty will coordinate with the school faculty to ensure the course planning in line with the school/CBSE almanac."
+            },
+        ],
+    ],[
+        "Features",
+        [
+            {content:"240+ Lecture Hours"},
+            {content:"80+ hours of Doubt removal Sessions"},
+            {content:"80+ Chapter Test (DPP)"},
+            {content:"Sample papers"},
+            {content:"Recorded Sessions of all lectures"},
+            {content:"Weekly Unit Test (Multiple Choice Pattern) for Competitive Examination"},
+            {content:"Monthly Unit Test (Theoretical pattern) for Board exam Preparation"},
+            {content:"Unlimited hours of Self Practice Test"},
+            {content:"Full Length Course Material"},
+            {content:"Old NEET Papers Practice Test"},
+        ]
+    ]
+]
+export { core, preFoundation , foundation ,twoYear,oneYear,planB,planC}

@@ -3,7 +3,6 @@ import Student from "../Models/Student"
 import { connectToDB } from "../db"
 import Admin from "../Models/Admin"
 import { compare } from "bcrypt"
-import { convertArrayToCSV } from "convert-array-to-csv"
 
 export const POST = async(req)=>{
     let reqBody
@@ -19,9 +18,7 @@ export const POST = async(req)=>{
             return NextResponse.json({success:true,error:"Invalid Credentails"},{status:403})
         }
         let temp = await Student.find()
-        const csvFromArrayOfObjects = convertArrayToCSV(temp);
-        let data = Buffer.from(csvFromArrayOfObjects)
-        return NextResponse.json({success:true,data},{status:200})
+        return NextResponse.json({success:true,data:temp},{status:200})
     } catch (error) {
         console.log(error);
         return NextResponse.json({error},{status:500})
